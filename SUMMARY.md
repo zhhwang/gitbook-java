@@ -8,6 +8,6 @@
     * [Java集合](chapter1/section2.md)
         * [低功耗](chapter2/section2.1.md)
         * [代码密度](chapter2/section2.2.md)
-    * [Java并发编程](jvm/gc.md)
+    * [Java并发编程](threads/thread.md)
     * [Java虚拟机](jvm/gc.md)
 
