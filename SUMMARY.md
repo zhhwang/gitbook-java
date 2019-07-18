@@ -19,7 +19,7 @@
 * [Spring](dayone/spring.md)
 * [Spring Cloud](chapter1/README.md)
 * [Redis](dayone/redis.md)
-* [Memacached](dayone/redis.md)
+* [Memcached](dayone/redis.md)
 * [Mysql](dayone/mysql.md)
 * [Kafka](dayone/kafka.md)
 * [Nginx](dayone/nginx.md)
