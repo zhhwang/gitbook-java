@@ -11,5 +11,9 @@
 10. 通信框架
 11. 监控中心
 
+##### ExtensionLoader
+##### 插件
+1. Qos 服务质量
+##### 计数器限流 [TPSLimiterFilter](https://www.jianshu.com/p/7112a8d3d869)
 #### 其他常见面试题
 1. 为什么使用dubbo

@@ -6,8 +6,10 @@
 #### Spring事件机制
 #### Spring内置事件
 ##### ContextRefreshedEvent
-    ConfigurableApplicationContext的refresh()方法，是在所有bean都已经被加载，Bean后处理都已被探测和激活，单例模式的Bean已经预实例化，
-    ApplicationContext已经可用的情况下。只要context没有被closed，refresh可以被多次触发，比如XmlWebApplicationContext支持的热刷新
+    ConfigurableApplicationContext的refresh()方法，是在所有bean都已经被加
+    载，Bean后处理都已被探测和激活，单例模式的Bean已经预实例化，ApplicationContext
+    已经可用的情况下。只要context没有被closed，refresh可以被多次触发，比如
+    XmlWebApplicationContext支持的热刷新
 ##### ContextStartedEvent
     ConfigurableApplicationContext的refresh的start方法，用于stop之后的重启
 ##### ContextStoppedEvent
