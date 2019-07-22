@@ -12,6 +12,8 @@
 11. 监控中心
 
 ##### ExtensionLoader
+##### [事件机制](https://www.cnblogs.com/java-zhao/p/8436460.html)
+
 ##### 插件
 1. Qos 服务质量
 ##### 计数器限流 [TPSLimiterFilter](https://www.jianshu.com/p/7112a8d3d869)

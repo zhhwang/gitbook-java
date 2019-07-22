@@ -4,6 +4,11 @@
     OverridingClassLoader及其子类
 ### Spring事件
 #### Spring事件机制
+EventPublisher--ApplicationPublisher
+EventListener--ApplicationListener
+ApplicationEvent:如果事件类型不是ApplicationEvent的子类，将会包装成PayloadApplicationEvent<T>
+EventMultiCaster--ApplicationEventMulticaster
+
 #### Spring内置事件
 ##### ContextRefreshedEvent
     ConfigurableApplicationContext的refresh()方法，是在所有bean都已经被加

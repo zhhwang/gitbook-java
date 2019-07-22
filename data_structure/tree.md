@@ -1,7 +1,6 @@
 
 
 ###[二叉树的遍历](https://www.cnblogs.com/llguanli/p/7363657.html)
-
 #### 前序遍历
 根-左-右
 ##### 递归实现
