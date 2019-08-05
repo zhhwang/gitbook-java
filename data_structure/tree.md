@@ -1,7 +1,7 @@
 
 
 ###[二叉树的遍历](https://www.cnblogs.com/llguanli/p/7363657.html)
-![二叉树图片](https://github.com/zhhwang/gitbook-java/assets/二叉树.png)
+![二叉树图片](https://github.com/zhhwang/gitbook-java/blob/master/assets/%E4%BA%8C%E5%8F%89%E6%A0%91.png)
 #### 前序遍历
 根-左-右
 ##### 递归实现
