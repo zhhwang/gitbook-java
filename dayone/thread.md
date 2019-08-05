@@ -1,13 +1,13 @@
 #### 什么是线程安全
-1. 原子性
-2. 可见性
-3. 有序性
+* 原子性
+* 可见性
+* 有序性
 
 #### 实现线程安全的几种方式
-1. 不可变对象
-2. 同步互斥
-3. 非阻塞同步
-4. 栈封闭和ThreadLocal
+* 不可变对象
+* 同步互斥
+* 非阻塞同步
+* 栈封闭和ThreadLocal
 
 ### 线程
 
@@ -26,22 +26,22 @@ terminated
 #### join()
 
 #### 线程中断
-1. 中断标志位
-2. 响应中断
-3. 不响应中断
+* 中断标志位
+* 响应中断
+* 不响应中断
 
 #### 线程间通信
-1. volatile和synchronized关键字
-2. 等待/通知机制
-3. 管道输入/输出流
-4. Thread.join()
+* volatile和synchronized关键字
+* 等待/通知机制
+* 管道输入/输出流
+* Thread.join()
 
 ### volatile
 
 #### 特性
-1. 可见性
-2. 有序性
-3. 为什么不能保证原子性
+* 可见性
+* 有序性
+* 为什么不能保证原子性
 
 ### synchronized
 
@@ -50,10 +50,10 @@ terminated
 #### 对synchronized的优化
 
 #### synchronized的使用
-1. 修饰(this)
-2. 修饰(A.class)
-3. 修饰普通方法
-4. 修饰静态方法
+* 修饰(this)
+* 修饰(A.class)
+* 修饰普通方法
+* 修饰静态方法
 
 ### synchronized与lock的区别
 
@@ -104,5 +104,5 @@ Java Memory Model and Thread Specification中定义了如下happens-before规则
 * 对象finalize规则：一个对象的初始化完成（构造函数执行结束）先行于发生它的finalize()方法的开始。
 
 ### 其他常见面试题
-1. 交替打印奇数和偶数
-2. 线上问题定位
+* 交替打印奇数和偶数
+* 线上问题定位
