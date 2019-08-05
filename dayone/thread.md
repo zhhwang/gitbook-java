@@ -1,7 +1,4 @@
 #### 什么是线程安全
-* 原子性
-* 可见性
-* 有序性
 
 #### 实现线程安全的几种方式
 * 不可变对象
@@ -10,7 +7,6 @@
 * 栈封闭和ThreadLocal
 
 ### 线程
-
 #### 线程状态
 new
 runnable
@@ -18,18 +14,13 @@ waiting
 time_waiting
 blocked
 terminated
-
 #### start()和run()
-
 #### yield()
-
 #### join()
-
 #### 线程中断
 * 中断标志位
 * 响应中断
 * 不响应中断
-
 #### 线程间通信
 * volatile和synchronized关键字
 * 等待/通知机制
@@ -37,18 +28,14 @@ terminated
 * Thread.join()
 
 ### volatile
-
 #### 特性
 * 可见性
 * 有序性
 * 为什么不能保证原子性
 
 ### synchronized
-
 #### 实现原理
-
 #### 对synchronized的优化
-
 #### synchronized的使用
 * 修饰(this)
 * 修饰(A.class)
@@ -68,29 +55,25 @@ terminated
 ### JUC
 
 #### 原子类
-
 #### 阻塞队列
-
 ##### ArrayBlockList
-
 ##### LinkedBlockList
-
 #### 并发容器
-
 #### 线程池
-
 #### 并发工具类
-
 ##### CountDownLatch
-
 ##### CyclicBarrier
-
 ##### Semaphore
-
 #### 并发框架
 
 ### Java内存模型
-
+#### 主内存与工作内存
+#### 内存间交互操作
+#### 内存模型三大特性
+* 原子性
+* 可见性
+* 有序性
+#### 指令重排序
 #### [happens-before规则](https://www.jianshu.com/p/d52fea0d6ba5)
 Java Memory Model and Thread Specification中定义了如下happens-before规则：
 * 程序顺序规则：一个线程中的每个操作，happens-before于该线程中的任意后续操作。

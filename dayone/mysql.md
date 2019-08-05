@@ -11,3 +11,12 @@
 ### 索引
 ### 集群
 ### SQL
+### 分库分表中间件
+#### myCat
+#### sharding-jdbc
+### 数据库连接池
+#### druid
+#### hikari
+### 持久层框架
+#### jpa
+#### mybatis
