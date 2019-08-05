@@ -42,14 +42,22 @@ terminated
 4. 修饰静态方法
 ### synchronized与lock的区别
 
+### Lock
+#### 重入锁
+#### 重入读写锁
 ### AQS原理
 
 ### JUC
 #### 原子类
 #### 阻塞队列
+##### ArrayBlockList
+##### LinkedBlockList
 #### 并发容器
 #### 线程池
 #### 并发工具类
+##### CountDownLatch
+##### CyclicBarrier
+##### Semaphore
 #### 并发框架
 
 ### Java内存模型
