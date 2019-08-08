@@ -23,7 +23,7 @@
 * [操作系统](dayone/os.md)
 * [Linux常用命令](dayone/dubbo.md)
 * [Dubbo](dayone/dubbo.md)
-* [Spring](dayone/spring.md)
+* [Spring](spring/spring.md)
 * [Spring Cloud](dayone/basis.md)
 * [Redis](dayone/redis.md)
 * [Memcached](dayone/redis.md)
