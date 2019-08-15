@@ -1,6 +1,5 @@
 #### 数组全排列
 回溯法 递归
-
 ````
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
@@ -26,5 +25,54 @@ class Solution {
             tmp.remove(tmp.size() - 1);
         }
     }
+}
+````
+#### [根据满足度分配饼干](https://leetcode.com/problems/assign-cookies/description/)
+ 贪心
+````$xslt
+public int findContentChildren(int[] g, int[] s) {
+    Arrays.sort(g);
+    Arrays.sort(s);
+    int gi = 0, si = 0;
+    while (gi < g.length && si < s.length) {
+        if (g[gi] <= s[si]) {
+            gi++;
+        }
+        si++;
+    }
+    return gi;
+}
+````
+#### [给表达式加括号](https://leetcode-cn.com/problems/different-ways-to-add-parentheses/description/)
+    分治
+````$xslt
+public List<Integer> diffWaysToCompute(String input) {
+    List<Integer> ways = new ArrayList<>();
+    for (int i = 0; i < input.length(); i++) {
+        char c = input.charAt(i);
+        if (c == '+' || c == '-' || c == '*') {
+            List<Integer> left = diffWaysToCompute(input.substring(0, i));
+            List<Integer> right = diffWaysToCompute(input.substring(i + 1));
+            for (int l : left) {
+                for (int r : right) {
+                    switch (c) {
+                        case '+':
+                            ways.add(l + r);
+                            break;
+                        case '-':
+                            ways.add(l - r);
+                            break;
+                        case '*':
+                            ways.add(l * r);
+                            break;
+                    }
+                }
+            }
+        }
+    }
+    if (ways.size() == 0) {
+        ways.add(Integer.valueOf(input));
+    }
+    return ways;
 }
 ````

@@ -1,4 +1,5 @@
 
+[官网](https://spring.io/projects/spring-data-jpa)
 ![JPA规范与ORM框架的关系](../assets/jpa_orm_relation.png)
 
 #### 查询策略

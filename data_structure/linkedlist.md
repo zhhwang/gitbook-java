@@ -34,7 +34,7 @@ public ListNode reverseList(ListNode head) {
     return newHead.next;
 }
 ````
-##### 2个有序列表合并
+##### 链表合并
 ````$xslt
 public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
     if (l1 == null) return l2;
