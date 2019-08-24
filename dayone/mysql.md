@@ -46,3 +46,6 @@ SELECT c1 FROM t WHERE c1 BETWEEN 10 and 20 FOR UPDATE
 ### 持久层框架
 #### jpa
 #### mybatis
+
+# questions
+* 数据库连接池的连接数量与cpu核数相同？
