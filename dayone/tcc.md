@@ -275,5 +275,9 @@ public Object interceptTransactionContextMethod(ProceedingJoinPoint pjp) throws 
 * confirm3: 红包账号服务远程调用方法record，第一个参数TransactionContext的状态为CONFIRMING   
 
  Confirm 或 Cancel时异常，将不断重试，直成功为止。
+ 
+### 补偿任务
+ 轮询失败的commit或cancel，不断尝试知道成功
     
 ## TCC 1.2
+修改了AOP注解的使用方式，不再强制第一个参数必须为TransactionContext
