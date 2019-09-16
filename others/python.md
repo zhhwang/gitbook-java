@@ -25,6 +25,20 @@ python GIL, 为什么有GIL 还需要threading
 python gevent协程调度原理/缺点
 
 
+gc
+- 引用计数器
+ - 非容器对象
+- 标记清除
+    - 容器对象
+    - root链表
+    - unreachable链表
+- 分代收集
+    - 幼年：幼年代中 分配对象个数 - 释放对象个数 > threshold0 触发垃圾收集
+    - 青年：青年代中 分配对象个数 - 释放对象个数 > threshold1 触发垃圾收集
+    - 老年: 老年代中 分配对象个数 - 释放对象个数 > threshold2 触发垃圾收集
+
+
+
 脚本语言
 编译型语言
 
